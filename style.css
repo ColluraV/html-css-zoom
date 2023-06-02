@@ -67,24 +67,27 @@ main{
 footer{
     display: flex;
     justify-content: space-between;
-    height: 60px;
+    height: 80px;
     background-color:#222222;
     color: white;
+    font-size: small;
 }
 
 .item{
     display: flex;
     flex-direction: column;
 }
-/*footer span{
-    justify-self: baseline;
-}*/
+footer span{
+    margin: 0 8px;
+}
 .left-items{
     display: flex;
+    padding: 0px 10px;
 }
 .items-container{
     display: flex;
     align-items: center;
+    margin: 0 1px;
 }
 .center-items{
     display: flex;
@@ -93,3 +96,27 @@ footer{
     justify-content: center;
 }
 
+footer .fas{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+
+.fas.fa-chevron-up.freccia{
+    font-size: 10px;
+}
+.green{
+    color: green;
+}
+
+.rosso{
+    height: 80px;
+    background-color: rgb(97, 97, 97);
+    color: rgb(206, 0, 0);
+    width: 100px;
+    font-weight: bolder;
+}
+
+button{
+    border:0;
+}
