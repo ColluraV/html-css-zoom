@@ -4,13 +4,46 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100vh;
+    color: white;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 
 header{
     display: flex;
     justify-content: flex-end;
     line-height: 80px;
 }
-header button{
+
+button{
     margin: 10px 5px;
     padding: 5px;
+    background-color: dimgray;
+    border-radius: 6px;
+    color: white;
 }
+            /* - -- - - - -- - - - - - - - -inizio main- - - - - - -- - - - - - - - -- - */
+
+main{
+    overflow: auto;
+    min-width: 720px;
+    flex-grow: 1;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
