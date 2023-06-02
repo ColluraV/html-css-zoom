@@ -22,15 +22,16 @@ body{
 header{
     display: flex;
     justify-content: flex-end;
-    line-height: 80px;
+    height: 100px;
 }
 
-button{
-    margin: 10px 5px;
-    padding: 5px;
+header button{
+    margin: 13px 2px;
+    padding: 4px;
     background-color: dimgray;
     border-radius: 6px;
     color: white;
+    height: 28px;
 }
             /* - -- - - - -- - - - - - - - -inizio main- - - - - - -- - - - - - - - -- - */
 
@@ -44,6 +45,51 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 30px;
+}
 
+.user{
+    position:relative;
+
+    height: 200px;
+    width: 300px;
+    margin: 8px 5px;
+}
+
+.user span{
+    background-color: rgba(128, 128, 128, 0.665);
+    position: absolute;
+    bottom:0;
+    left: 0;
+    padding:6px 5px;
+}
+ /* - - - - - -- - - - - - -- - - - inizio footer - - - - -- - - - - - -- - - - -- - */
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color:#222222;
+    color: white;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+/*footer span{
+    justify-self: baseline;
+}*/
+.left-items{
+    display: flex;
+}
+.items-container{
+    display: flex;
+    align-items: center;
+}
+.center-items{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
 }
 
