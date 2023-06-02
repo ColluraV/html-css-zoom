@@ -134,7 +134,8 @@ a {
     display: flex;
     padding: 5px;
 }
-footer a:hover{
+
+footer a:hover {
     background-color: rgba(250, 235, 215, 0.205);
     border-radius: 5px;
 }
