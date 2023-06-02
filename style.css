@@ -125,7 +125,7 @@ footer .fas {
 }
 
 button {
-    border: 0;
+    border-style: hidden;
 }
 
 a {
@@ -138,4 +138,7 @@ a {
 footer a:hover {
     background-color: rgba(250, 235, 215, 0.205);
     border-radius: 5px;
+}
+button:hover{
+    background-color: rgba(250, 235, 215, 0.205);
 }
