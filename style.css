@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     height: 100vh;
     color: white;
 }
 
-body{
+body {
     background-color: black;
     color: white;
     font-family: sans-serif;
@@ -19,13 +19,13 @@ body{
 }
 
 
-header{
+header {
     display: flex;
     justify-content: flex-end;
     height: 100px;
 }
 
-header button{
+header button {
     margin: 13px 2px;
     padding: 4px;
     background-color: dimgray;
@@ -33,83 +33,90 @@ header button{
     color: white;
     height: 28px;
 }
-            /* - -- - - - -- - - - - - - - -inizio main- - - - - - -- - - - - - - - -- - */
 
-main{
+/* - -- - - - -- - - - - - - - -inizio main- - - - - - -- - - - - - - - -- - */
+
+main {
     overflow: auto;
     min-width: 720px;
     flex-grow: 1;
 }
 
-.gallery{
+.gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 30px;
 }
 
-.user{
-    position:relative;
+.user {
+    position: relative;
 
     height: 200px;
     width: 300px;
     margin: 8px 5px;
 }
 
-.user span{
+.user span {
     background-color: rgba(128, 128, 128, 0.665);
     position: absolute;
-    bottom:0;
+    bottom: 0;
     left: 0;
-    padding:6px 5px;
+    padding: 6px 5px;
 }
- /* - - - - - -- - - - - - -- - - - inizio footer - - - - -- - - - - - -- - - - -- - */
-footer{
+
+/* - - - - - -- - - - - - -- - - - inizio footer - - - - -- - - - - - -- - - - -- - */
+footer {
     display: flex;
     justify-content: space-between;
-    height: 80px;
-    background-color:#222222;
+    background-color: #222222;
     color: white;
     font-size: small;
 }
 
-.item{
+.item {
     display: flex;
     flex-direction: column;
 }
-footer span{
+
+footer span {
     margin: 0 8px;
 }
-.left-items{
+
+.left-items {
     display: flex;
     padding: 0px 10px;
 }
-.items-container{
+
+.items-container {
     display: flex;
     align-items: center;
     margin: 0 1px;
 }
-.center-items{
+
+.center-items {
     display: flex;
     align-items: center;
     flex-grow: 1;
     justify-content: center;
 }
 
-footer .fas{
+footer .fas {
     text-align: center;
     font-size: 30px;
     padding-bottom: 8px;
+
 }
 
-.fas.fa-chevron-up.freccia{
+.fas.fa-chevron-up.freccia {
     font-size: 10px;
 }
-.green{
+
+.green {
     color: green;
 }
 
-.rosso{
+.rosso {
     height: 80px;
     background-color: rgb(97, 97, 97);
     color: rgb(206, 0, 0);
@@ -117,12 +124,17 @@ footer .fas{
     font-weight: bolder;
 }
 
-button{
-    border:0;
+button {
+    border: 0;
 }
-a{
-        text-decoration: none;
-        color: aliceblue;
-        display: flex;
-        justify-content: center;
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    padding: 5px;
+}
+footer a:hover{
+    background-color: rgba(250, 235, 215, 0.205);
+    border-radius: 5px;
 }
